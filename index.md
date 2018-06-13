@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+and since this is my first file so i will take care of all the edits directly in master branch.!!
 
 You can use the [editor on GitHub](https://github.com/thejaysoni/thejaysoni.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
