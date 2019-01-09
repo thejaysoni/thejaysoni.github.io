@@ -1,3 +1,3 @@
 $(document).ready(function(){
-   alert("helo helllo hfghfdhfg world")
+   alert("helo helllo hfghfdhfgs world")
 });
