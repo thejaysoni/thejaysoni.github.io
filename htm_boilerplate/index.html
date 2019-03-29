@@ -3,7 +3,8 @@
 		<title>My first three.js app</title>
 		<style>
 			body { margin: 0; }
-			canvas { width: 100%; height: 100% }
+			canvas { width: 50%; height: 100% ;display: block; border: 1px solid red;
+			}
 		</style> 
 	</head>
 	<body>
@@ -16,8 +17,8 @@
 		<script src="scripts/myjs.js"></script>
 		<script src="scripts/threejsWorkspace.js"></script>
 		
-		<input type="button" onClick="drawMy3d()">add 3</input>
-		<input type="button" onClick="removeMy3d()">remove 3</input>
+		<input type="button" onClick="drawMy3d()" value="start">
+		<input type="button" onClick="removeMy3d()" value="stop">
 		<canvas id="canvasId">
 			
 			</canvas>
