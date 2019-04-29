@@ -31,3 +31,10 @@ body{
 	font-weight: bold;
 }
 
+#typedStrings{
+	color:rgb(129, 32, 100);
+}
+.typed-cursor{
+	font-size: 40px;
+}
+
