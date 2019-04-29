@@ -1,8 +1,5 @@
 body{
-	margin:0
-	
-
-	
+	margin:0;
 }
 #particles-js{
 	width: 100%;
@@ -16,7 +13,7 @@ body{
     align-items: center;
     justify-content: center;
    
-	background:rgb(37, 57, 156);
+	background:transparent;
 	position: absolute;
 	top: 40%;
 	left: 30%;
