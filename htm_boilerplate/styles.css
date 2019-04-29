@@ -1,6 +1,25 @@
-#cl{
-	background: red;
-	width: 300px;
-	height: 300px;
-	border: 1px solid red;
+body{
+	margin:0
+	
+
+	
 }
+.myContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background:rgb(37, 57, 156);
+}
+.hindHeadline{
+	font-family: 'Hind', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	
+	
+	color: red;
+
+
+}
+
+

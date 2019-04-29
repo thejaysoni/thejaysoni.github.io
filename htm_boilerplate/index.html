@@ -1,27 +1,27 @@
 <html>
 	<head>
-		<title>My first three.js app</title>
-		<style>
-			body { margin: 0; }
-			canvas { width: 50%; height: 100% ;display: block; border: 1px solid red;
-			}
-		</style> 
+		
+		<link href="./styles.css"; rel="stylesheet">
+		<title>My first app</title>
+	
 	</head>
 	<body>
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			crossorigin="anonymous"></script>
-		<script src="scripts/three.min.js"></script>
-		<script src="scripts/OrbitControls.js"></script>
-		<script src="scripts/myjs.js"></script>
-		<script src="scripts/threejsWorkspace.js"></script>
+			<script src="scripts/myjs.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+		<div class="myContainer">
 		
-		<input type="button" onClick="drawMy3d()" value="start">
-		<input type="button" onClick="removeMy3d()" value="stop">
-		<canvas id="canvasId">
-			
-			</canvas>
-		
+			 
+			<span id="typed"></span>
+			<div id="typed-strings">
+					<p><strong>JavaScript</strong></p>
+					<p><strong>ScriptJAva</strong></p>
+					<p><strong>Lorem Ipsum</strong></p>
+					<p class="hindHeadline"> नमस्ते</p>
+		</div> 
+		</div>
 	</body>
 </html>
