@@ -38,17 +38,17 @@ $(document).ready(function(){
         }
       },
       "opacity": {
-        "value": 0.95486864637505,
+        "value": 0.8838453586281454,
         "random": false,
         "anim": {
           "enable": false,
-          "speed": 1,
+          "speed": 3.4107242916656495,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 3,
+        "value": 3.945738208161363,
         "random": true,
         "anim": {
           "enable": false,
@@ -67,14 +67,14 @@ $(document).ready(function(){
       "move": {
         "enable": true,
         "speed": 6,
-        "direction": "none",
-        "random": false,
+        "direction": "bottom",
+        "random": true,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "bounce": false,
         "attract": {
           "enable": false,
-          "rotateX": 600,
+          "rotateX": 320.6824121731046,
           "rotateY": 1200
         }
       }
@@ -83,11 +83,11 @@ $(document).ready(function(){
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": true,
-          "mode": "repulse"
+          "enable": false,
+          "mode": "grab"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true
@@ -120,6 +120,7 @@ $(document).ready(function(){
     },
     "retina_detect": true
   });
+
 
 
   console.log("hello")
