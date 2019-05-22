@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jay Live TV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+.row1 {
+  display: -webkit-flex;
+  display: flex;
+  background: "gray";
+  text-align: center;
+ 
+}
+.row1 > iframe{
+        width:615px ;height:400px ; margin: 0 auto;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  padding: 10px;
+  height: 50px; /* Should be removed. Only for demonstration */
+}
+.chnBox{
+        height: 50px;
+        padding: 10px;
+        border:1px solid red;
+        background-color: cyan;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #fc0606;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Header</h2>
+</div>
+
+<div class="row">
+  <div class="column"></div>
+  <div class="column "id = "channels" style="background-color:#aa7a;">Col1umn</div>
+  <div class="column" ></div>  
+</div>
+<div class="row1"> 
+        <iframe src="https://www.youtube.com/embed/RVeVtBxoImI" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="footer">
+  <p><h4 style="text-align: center;font-family: sans-serif;color: bisque"><i style="font-size:20px" class="fa">&#xf1f9;</i>Jay soni :P</h4></p>
+</div>
+<script>
+        window.onload = function() {
+                let channels = [
+                        {
+                          "link":"RVeVtBxoImI",
+                          "name":"Aaj Tak",
+                          "lang":"Hindi",
+                          "icon":""      
+                        },
+                        {
+                          "link":"RVeVtBxoImI",
+                          "name":"Aaj Tak",
+                          "lang":"English",
+                          "icon":""      
+                        },
+                        {
+                          "link":"RVeVtBxoImI",
+                          "name":"NDTV",
+                          "lang":"Hindi",
+                          "icon":""      
+                        },
+                        {
+                          "link":"RVeVtBxoImI",
+                          "name":"Aaj Tak",
+                          "lang":"English",
+                          "icon":""      
+                        },
+                        {
+                          "link":"RVeVtBxoImI",
+                          "name":"ABP News",
+                          "lang":"Hindi",
+                          "icon":""      
+                        },
+                        {
+                          "link":"RVeVtBxoImI",
+                          "name":"ABP News",
+                          "lang":"English",
+                          "icon":""      
+                        },
+                ];
+              //var chn = document.getElementsByClassName("channels").append("<div class='chnBox'></div>")  
+              function myFunction() {
+                var node = document.createElement("DIV");
+                node.classList.add("chnBox");
+                var textnode = document.createTextNode("Water");
+                node.appendChild(textnode);
+                document.getElementById("channels").appendChild(node);
+                }
+                myFunction();
+        };   
+           </script>
+</body>
+</html>
+
+<!-- <html> 
+        <head>
+                <title>Jay SOnY LiVe</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                </head>
+                <style>
+                .red{
+                        background-color : red;
+                        width: 100px;
+                        height: 60px;
+                        border: 1px solid black;
+                        }
+                </style>
+<body style="background: green"> 
+        <div class="red">
+                
+        </div>
+<div style=" width:620px; height:100%; margin: 0 auto">  
+         <h1 style="text-align: center ;color: beige; font-family: 'Courier New', Courier, monospace">Jay Soni Live TV</h1>
+        <div style="text-align: center ;color: green; display: flex;">
+               
+<iframe width="615" height="400"  style="margin: 0 auto;" src="https://www.youtube.com/embed/smZRzehsXHA" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h4 style="text-align: center;font-family: sans-serif;color: bisque"><i style="font-size:20px" class="fa">&#xf1f9;</i>Jay soni :P</h4>
+</div> 
+<script>
+     window.onload = function() {
+      function myclick(event){
+        console.log("i am clicked");
+
+      }
+};   
+</script>
+</body> 
+</html> -->
