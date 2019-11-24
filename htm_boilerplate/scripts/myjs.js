@@ -8,7 +8,18 @@ $(document).ready(function(){
     backSpeed: 40,
     loop: true,
   });
+  $(".myContainer").css("opacity",1);
+  var bgimg = "backwall1";
+ 
   
+  window.addEventListener("click",function(){
+    bgimg == "backwall1" ? bgimg = "backwall": bgimg = "backwall1"; 
+    document.body.style.backgroundImage = "url('"+bgimg+".jpg')";
+    
+
+   
+  })
+
   // particlesJS("particles", {
   //   "particles": {
   //     "number": {
@@ -122,5 +133,5 @@ $(document).ready(function(){
 
 
 
- 
+  console.log("hello")
 });
