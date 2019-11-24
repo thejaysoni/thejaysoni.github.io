@@ -9,26 +9,6 @@ $(document).ready(function(){
     loop: true,
   });
   
-  var obj = {
-    el: "#particles",
-    wingSpan: 28.00,
-    separation: 53.00,
-    alignment: 45.00,
-    cohesion: 92.00,
-    quantity: 2.00
-  };
-  window.VANTA.BIRDS(obj)
-  
-  window.addEventListener("click",function(){
-    console.log("hi scroll is taking place  "+obj.quantity );
-    if(obj.quantity <=5 && obj.quantity >=0.5)
-    obj.quantity = obj.quantity+0.5;
-    else if(obj.quantity >5)
-    obj.quantity = obj.quantity-0.5;
-
-    window.VANTA.BIRDS(obj)
-  })
-
   // particlesJS("particles", {
   //   "particles": {
   //     "number": {
@@ -142,5 +122,5 @@ $(document).ready(function(){
 
 
 
-  console.log("hello")
+ 
 });
