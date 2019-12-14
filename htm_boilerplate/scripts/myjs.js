@@ -8,7 +8,7 @@ $(document).ready(function(){
     backSpeed: 40,
     loop: true,
   });
-  $(".myContainer").css("opacity",1);
+  //$(".myContainer").css("opacity",1);
   // var bgimg = "backwall1";
  
   
